@@ -7,7 +7,7 @@ First make sure you have [ESMValTool](https://esmvaltool.org/) [installed](https
 Next you can install this searcher:
 
 ```console
-pip install https://github.com/WAM2layers/WAM2layers/archive/refs/heads/main.zip
+pip install https://github.com/WAM2layers/search-esgf/archive/refs/heads/main.zip
 ```
 
 ## Usage
