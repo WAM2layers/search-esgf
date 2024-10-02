@@ -1,0 +1,62 @@
+'''
+Results from search output
+
+More detailled output (with information on vertical levels, etc.) can be found at ...
+
+'''
+
+AMIP  -  experiment="amip",frequency="subdaily",variables= ['hus', 'hfls', 'pr', 'ps', 'ua', 'va']
+{'MIROC-ES2L': {'r2i1p1f2', 'r1i1p1f2', 'r3i1p1f2'}, 
+'EC-Earth3-AerChem': {'r1i1p1f4', 'r1i1p1f1'}, 
+'KACE-1-0-G': {'r1i1p1f1'}, 
+'NESM3': {'r4i1p1f1', 'r2i1p1f1', 'r1i1p1f1', 'r3i1p1f1', 'r5i1p1f1'}, 
+'IPSL-CM6A-LR': {'r10i1p1f1', 'r19i1p1f1', 'r16i1p1f1', 'r9i1p1f1', 'r6i1p1f1', 'r5i1p1f1', 'r7i1p1f1', 'r11i1p1f1', 'r22i1p1f1', 'r12i1p1f1', 'r8i1p1f1', 'r18i1p1f1', 'r15i1p1f1', 'r4i1p1f1', 'r2i1p1f1', 'r14i1p1f1', 'r17i1p1f1', 'r20i1p1f1', 'r1i1p1f1', 'r3i1p1f1', 'r13i1p1f1', 'r21i1p1f1'}, 
+'MPI-ESM-1-2-HAM': {'r2i1p1f1', 'r3i1p1f1', 'r1i1p1f1'}, 
+'CNRM-ESM2-1': {'r1i1p1f2'}, 
+'FGOALS-g3': {'r4i1p1f1', 'r2i1p1f1', 'r1i1p1f1', 'r3i1p1f1', 'r5i1p1f1'},
+ 'MRI-ESM2-0': {'r1i1p1f1'}, 
+'FGOALS-f3-L': {'r2i1p1f1', 'r3i1p1f1', 'r1i1p1f1'}, 
+'TaiESM1': {'r1i1p1f1'}, 
+’ACCESS-CM2': {'r4i1p1f1', 'r2i1p1f1', 'r1i1p1f2', 'r3i1p1f2', 'r1i1p1f1', 'r2i1p1f2', 'r3i1p1f1'},
+ 'HadGEM3-GC31-MM': {'r1i1p1f3'}, 
+'GFDL-CM4': {'r1i1p1f1'}, 
+'CNRM-CM6-1': {'r1i1p1f2'},
+ 'BCC-CSM2-MR': {'r2i1p1f1', 'r3i1p1f1', 'r1i1p1f1'},
+ 'CNRM-CM6-1-HR': {'r1i1p1f2'}, 
+'SAM0-UNICON': {'r1i1p1f1'},
+ 'CESM2': {'r10i1p1f1'},
+ 'HadGEM3-GC31-LL': {'r1i1p1f3'},
+ 'MPI-ESM1-2-LR': {'r2i1p1f1', 'r3i1p1f1', 'r1i1p1f1'},
+ 'MPI-ESM1-2-HR': {'r2i1p1f1', 'r3i1p1f1', 'r1i1p1f1'}, 
+'IPSL-CM6A-MR1': {'r4i1p1f1', 'r2i1p1f1', 'r10i1p1f1', 'r1i1p1f1', 'r9i1p1f1', 'r6i1p1f1', 'r5i1p1f1'}, 
+'ACCESS-ESM1-5': {'r4i1p1f1', 'r2i1p1f1', 'r10i1p1f1', 'r1i1p1f1', 'r9i1p1f1', 'r6i1p1f1', 'r3i1p1f1', 'r8i1p1f1', 'r5i1p1f1', 'r7i1p1f1'}, 
+'CMCC-CM2-SR5': {'r1i1p1f1'}}
+
+AMIP - experiment="amip",frequency="subdaily",variables = ['hus','evspsbl','pr','ps','ua','va']
+
+{'IPSL-CM6A-LR': {'r1i1p1f1', 'r2i1p1f1', 'r22i1p1f1'}, 
+'CNRM-ESM2-1': {'r1i1p1f2'}, 
+'CNRM-CM6-1': {'r1i1p1f2'}, 
+'CNRM-CM6-1-HR': {'r1i1p1f2'}, 
+'IPSL-CM6A-MR1': {'r4i1p1f1', 'r2i1p1f1', 'r10i1p1f1', 'r1i1p1f1', 'r9i1p1f1', 'r6i1p1f1', 'r5i1p1f1'}}
+
+SSP245 -  experiment="ssp245",frequency="subdaily",variables= ['hus', 'hfls', 'pr', 'ps', 'ua', 'va']
+{'MIROC-ES2L': {'r4i1p1f2', 'r10i1p1f2', 'r20i1p1f2', 'r21i1p1f2', 'r9i1p1f2', 'r27i1p1f2', 'r13i1p1f2', 'r17i1p1f2', 'r16i1p1f2', 'r18i1p1f2', 'r25i1p1f2', 'r3i1p1f2', 'r19i1p1f2', 'r29i1p1f2', 'r14i1p1f2', 'r22i1p1f2', 'r23i1p1f2', 'r1i1p1f2', 'r7i1p1f2', 'r30i1p1f2', 'r24i1p1f2', 'r8i1p1f2', 'r15i1p1f2', 'r5i1p1f2', 'r6i1p1f2', 'r26i1p1f2', 'r28i1p1f2', 'r2i1p1f2', 'r11i1p1f2', 'r12i1p1f2'}, 
+ 'UKESM1-0-LL': {'r2i1p1f2', 'r1i1p1f2', 'r3i1p1f2'}, 
+ 'NESM3': {'r2i1p1f1', 'r1i1p1f1'}, 
+ 'IPSL-CM6A-LR': {'r4i1p1f1', 'r2i1p1f1', 'r14i1p1f1', 'r10i1p1f1', 'r11i1p1f1', 'r1i1p1f1', 'r22i1p1f1', 'r25i1p1f1', 'r3i1p1f1', 'r6i1p1f1', 'r5i1p1f1'}, 
+ 'EC-Earth3': {'r1i1p1f1'},
+ 'MIROC6': {'r1i1p1f1'}, 
+ 'CMCC-ESM2': {'r1i1p1f1'}, 
+ 'FGOALS-g3': {'r4i1p1f1', 'r3i1p1f1', 'r2i1p1f1'},
+ 'CanESM5': {'r1i1p2f1'}, 
+ 'ACCESS-CM2': {'r4i1p1f1', 'r5i1p1f1', 'r1i1p1f1'}, 
+ 'BCC-CSM2-MR': {'r1i1p1f1'}, 
+ 'HadGEM3-GC31-LL': {'r1i1p1f3'}, 
+ 'MPI-ESM1-2-LR': {'r4i1p1f1', 'r2i1p1f1', 'r10i1p1f1', 'r1i1p1f1', 'r9i1p1f1', 'r3i1p1f1', 'r6i1p1f1', 'r8i1p1f1', 'r5i1p1f1', 'r7i1p1f1'}, 
+ 'MPI-ESM1-2-HR': {'r2i1p1f1', 'r1i1p1f1'}, 
+ 'GISS-E2-1-G': {'r2i1p1f2', 'r1i1p1f2'}, 
+ 'CMCC-CM2-SR5': {'r1i1p1f1'}}
+
+SSP245 -  experiment="ssp245",frequency="subdaily",variables= ['hus','evspsbl','pr','ps','ua','va']
+{}
