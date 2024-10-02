@@ -14,6 +14,9 @@ pip install https://github.com/WAM2layers/search-esgf/archive/refs/heads/main.zi
 ```python
 from search_esgf import search
 
+from esmvalcore.config import CFG
+CFG['search_esgf'] = 'always'
+
 search.search_esgf(
     experiment="ssp585",
     frequency="day",
@@ -33,3 +36,13 @@ Will return something like:
     'GFDL-CM4': {'r1i1p1f1'},
 }
 ```
+
+## Docker image
+
+Installing ESMValTool can be a hassle. Alternatively you can use the docker image we have prepared:
+
+```console
+docker run -it ghcr.io/wam2layers/search-esgf
+```
+
+And then run the Python code above.
